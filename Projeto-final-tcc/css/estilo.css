@@ -1,7 +1,8 @@
 body,html{margin:0;padding:0;height:100%;}
-body{background:#00250c;box-shadow: inset 0 0 20vmin 0 #04c704;}
+body{background:#00250c4b;box-shadow: inset 0 0 20vmin 0 #04c70449;}
 body{
-background-image: url(/img/perito-criminal.jpg);
+background-image: url(../img/concurso_para_perito_criminal2.jpg);
+background-size: cover;
 
 }
 .wrap{
@@ -33,7 +34,9 @@ a:nth-child(1){
   transition:transform .4s .15s;
 }
 a:nth-child(1) div{
-  background-image:url('/img/iphone12.jpg');
+  background-image:url(../img/ig1.jpg);
+  background-position: center;
+  
 }
 a:nth-child(2){
   border-radius:0 40vmin 0 0;
@@ -42,7 +45,8 @@ a:nth-child(2){
   transition:transform .4s .2s;
 }
 a:nth-child(2) div{
-  background-image:url('');
+  background-image:url('../img/ig2.jpg');
+  background-position: inherit;
 }
 a:nth-child(3){
   border-radius:0 0 0 40vmin;
@@ -51,7 +55,7 @@ a:nth-child(3){
   transition:transform .4s .25s;
 }
 a:nth-child(3) div{
-  background-image:url('/img/perito-criminal.jpg');
+  background-image:url('../img/ig4.jpg');
 }
 a:nth-child(4){
   border-radius:0 0 40vmin 0;
@@ -60,18 +64,19 @@ a:nth-child(4){
   transition:transform .4s .3s;
 }
 a:nth-child(4) div{
-  background-image: url('');
+  background-image: url('../img/ig3.jpeg');
 }
 a:nth-child(5){
   width:55%;height:55%;
   left:22.5%; top:22.5%;
   border-radius:50vmin;
-  box-shadow:0 0 0 5vmin #01aa1d;
+  box-shadow:0 0 0 5vmin #005315;
  
 }
 a:nth-child(5) div{
-  background-image: url('/img/perito-criminal.jpg');
-  background-color: transparent;
+  background-image: url('../img/bio.png');
+  background-size: cover;
+  background-position: center;
 }
 span{
   position:relative;
@@ -80,13 +85,13 @@ span{
   top:45vmin;
   width:10vmin; height:10vmin;
   border-radius:100%;
-  background:#46f800;
+  background:#000000;
   transform:translateZ(0px);
 }
 span span{
   position:absolute;
   width:60%;height:3px;
-  background:#157c00;
+  background:#008a2e;
   left:20%; top:50%;
   border-radius:0;
 }
@@ -111,3 +116,17 @@ a:hover div{
   opacity:1;
   transform:translatez(0px);
 }
+
+h1{
+text-align: center;
+color:white ;
+margin: 0;
+font-size: 80px;
+
+}
+h2{
+  text-align: center;
+  color:white ;
+  margin: 0;
+  font-size: 40px;
+  }
