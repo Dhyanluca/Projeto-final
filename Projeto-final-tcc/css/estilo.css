@@ -3,6 +3,7 @@ body{background:#00250c4b;box-shadow: inset 0 0 20vmin 0 #04c70449;}
 body{
 background-image: url(../img/concurso_para_perito_criminal2.jpg);
 background-size: cover;
+overflow-x:hidden;
 
 }
 .wrap{
