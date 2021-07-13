@@ -141,5 +141,12 @@ body {
 }
 .button{
 text-align: center;
+border-radius: 50px;
+
+}
+
+.bt1{
+  text-align: center;
+  border-radius: 50px;
 
 }

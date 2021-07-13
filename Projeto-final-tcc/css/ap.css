@@ -183,5 +183,24 @@ height: 50px;
 
   }
 
+  .botão{
+  text-align: center;
+  color: #000;
+
+  }
+
+  .botão2{
+    text-align: center;
+    color: #000;
+    margin-top: 40%;
+   
+  
+    }
+
+    .bt2{
+      border-radius: 60px;
+      background-color: rgb(48, 204, 0);
+
+    }
 
   
